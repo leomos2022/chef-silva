@@ -1,0 +1,143 @@
+/* General styles */
+body {
+    background-color: #201F2E;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+  }
+  
+  h1 {
+    color: #FFF;
+    font-size: 2em;
+    margin-top: 40px;
+    font-family: Georgia, serif;
+    text-align: center;
+  }
+  
+  h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+  
+  p {
+    line-height: 1.5;
+    font-size: 1em;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+  }
+  
+  .byline {
+    font-family: Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9em;
+    padding-left: 20px;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Image styles */
+  .writer-img {
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  .image {
+    background-image: url("/images/rollbeef.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin: 20px auto;
+  }
+  
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.2;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+ 
+  
+    p {
+      font-size: 0.9em;
+      padding: 0 10px;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  
+    .writer-img {
+      width: 40px;
+    }
+  
+    .image {
+      height: 200px;
+    }
+  
+    .caption {
+      font-size: 0.8em;
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2em;
+    }
+  
+    h2 {
+      font-size: 1em;
+    }
+  
+    .writer-img {
+      display: block;
+      margin: 0 auto 10px;
+    }
+  
+    .byline {
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    p {
+      font-size: 0.8em;
+      padding: 0 5px;
+    }
+  
+    .image {
+      height: 150px;
+    }
+  
+    .caption {
+      font-size: 0.7em;
+    }
+  }
+  
