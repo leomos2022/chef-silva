@@ -58,7 +58,7 @@ body {
   }
   
   .image {
-    background-image: url("/images/rollbeef.JPG");
+    background-image: url("/images/rollbeef.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
